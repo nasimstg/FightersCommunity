@@ -9,11 +9,11 @@ Created by wooeneStudio with the love of admission fighters
 Creators fb: https://www.facebook.com/mohammed.nasim.on3
 
 # Ideas
- *threads (eg: BUET, Engineering, Publician, Medical)
- *common threads
- *community driven threads
- *mods
- *live roadmap and news
- *versity details
+ *threads (eg: BUET, Engineering, Publician, Medical) </br>
+ *common threads </br>
+ *community driven threads </br>
+ *mods</br>
+ *live roadmap and news </br>
+ *versity details </br>
  
 # Community Contribution
