@@ -3,6 +3,9 @@
 :root {
   --bg-light: #fafafa;
   --bg-dark: #0d0d0d;
+  --accent-blue: #0079d3;
+  --bg-gray-light: #e3e3e3;
+  --bg-gray-dark: #9c9c9c;
 }
 
 html,

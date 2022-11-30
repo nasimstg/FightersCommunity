@@ -1,0 +1,124 @@
+.threadsContainer {
+    width: 550px;
+    position: relative;
+}
+
+.threadsMain {
+    width: 550px;
+    padding: 10px 15px 0 15px;
+    margin: 25px;
+    border: 1px solid #e3e3e3;
+    background-color: var(--bg-light);
+    border-radius: 3px;
+    position: fixed;
+    height: 79vh;
+    overflow-y: scroll;
+    margin-bottom: 0;
+
+}
+
+.threadsOptions {}
+
+.threadslMessage {
+    position: relative;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #9c9c9c;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #e3e3e3;
+}
+
+.threadsrMessage {
+    margin-left: 20% !important;
+    right: 0;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid var(--accent-blue);
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #98bad3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.msgInfoTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.proImageContainer {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.proImageContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.msgInfoTop p {
+    margin: 0;
+    margin-left: 5px;
+    color: #9c9c9c;
+}
+
+.msg p {
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+}
+
+.msgInfoFooter p {
+    margin: 5px 0 0 0;
+    color: #9c9c9c;
+    font-size: .8rem;
+}
+
+.threadsrMessage .msgInfoTop p,
+.threadsrMessage .msgInfoFooter p {
+    color: #4a4a4a;
+}
+
+.threadsrMessage .msg p {
+    margin-left: 0;
+    margin-right: 40px;
+    text-align: right;
+}
+
+.msgForm {
+    margin-left: 25px;
+    margin-bottom: 25px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.msgForm form input {
+    padding: 5px;
+    width: 440px;
+    height: 40px;
+    border: 1px solid var(--accent-blue);
+    outline: none;
+    font-size: 1rem;
+}
+
+.msgForm form button {
+    padding: 5px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    background-color: var(--accent-blue);
+    color: var(--bg-light);
+    font-size: 1rem;
+}
