@@ -37,6 +37,11 @@
     margin: 0 14px;
     font-weight: 400;
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.listItem:hover {
+    color: var(--accent-blue);
 }
 
 .listItemBtn {

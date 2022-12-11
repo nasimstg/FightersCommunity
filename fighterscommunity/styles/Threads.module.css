@@ -4,20 +4,89 @@
 }
 
 .threadsMain {
-    width: 550px;
+    width: 50vw;
     padding: 10px 15px 0 15px;
-    margin: 25px;
+    margin: 25px 0;
     border: 1px solid #e3e3e3;
     background-color: var(--bg-light);
     border-radius: 3px;
     position: fixed;
-    height: 79vh;
+    height: 90vh;
     overflow-y: scroll;
     margin-bottom: 0;
 
 }
 
-.threadsOptions {}
+.threadsMain p {
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.threadsMain h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+.mainForm form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mainForm form textarea {
+    width: 100%;
+    height: 60px;
+    outline: none;
+    border: 1px solid #e3e3e3;
+    font-size: 1.5rem;
+    height: auto;
+}
+
+.mainForm form button {
+    width: 10%;
+}
+
+.mainFormBtns {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainFormBtns button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-right: 1px solid #9c9c9c;
+    height: 45px;
+}
+
+.mainFormBtns button:last-child {
+    border: none;
+}
+
+.topForm button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    height: 45px;
+}
+
+.btnAccent {
+    background: var(--accent-blue) !important;
+    color: var(--bg-light);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.threadsOptions {
+    display: none;
+}
 
 .threadslMessage {
     position: relative;
@@ -121,4 +190,40 @@
     background-color: var(--accent-blue);
     color: var(--bg-light);
     font-size: 1rem;
+}
+
+
+
+.Posts {
+    margin: 25px 0;
+}
+
+.titleLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.postsTitleTxt p {
+    margin-left: 10px;
+}
+
+.votes {
+    margin-right: 25px;
+}
+
+.votes img {
+    cursor: pointer;
 }

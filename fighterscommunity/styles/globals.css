@@ -37,6 +37,10 @@ main {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: .8vw;

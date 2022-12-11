@@ -46,15 +46,15 @@ export default function App({ Component, pageProps }: AppProps) {
             </div>
             <div className={styles.shortcutContaner}>
               <Image src={buet_logo} width={42} height={42} alt='buet_fightersComm'></Image>
-              <p>BUET</p>
+              <p>DU</p>
             </div>
             <div className={styles.shortcutContaner}>
               <Image src={buet_logo} width={42} height={42} alt='buet_fightersComm'></Image>
-              <p>BUET</p>
+              <p>Medical</p>
             </div>
             <div className={styles.shortcutContaner}>
               <Image src={buet_logo} width={42} height={42} alt='buet_fightersComm'></Image>
-              <p>BUET</p>
+              <p>GST</p>
             </div>
           </section>
         </div>
